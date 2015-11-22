@@ -28,4 +28,4 @@ A simple usage example:
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: 
+[tracker]: https://github.com/lejard-h/dart_barcode/issues

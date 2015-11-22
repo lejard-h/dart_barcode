@@ -2,7 +2,7 @@ name: dart_barcode
 description: Port of JsBarcode library
 version: 0.0.1
 author: Hadrien Lejard <hadrien.lejard@gmail.com>
-#homepage: https://www.example.com
+homepage: https://github.com/lejard-h/dart_barcode
 
 environment:
   sdk: '>=1.13.0 <2.0.0'
