@@ -13,7 +13,8 @@ A simple usage example:
 
     <script src="packages/dart_barcode/js/JsBarcode.js"></script>
     <script src="packages/dart_barcode/js/CODE128.js"></script>
-    
+
+    <img></img>
 
 ### main.dart
 
