@@ -1,6 +1,6 @@
 # dart_barcode
 
-Port of JsBarcode
+Port of JsBarcode library.
 JsBarcode is a simple way to create different types of 1d barcodes.
 The plugin uses Html5Canvas to generate draw the barcodes
 
