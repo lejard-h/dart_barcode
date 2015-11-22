@@ -8,6 +8,15 @@ The plugin uses Html5Canvas to generate draw the barcodes
 
 A simple usage example:
 
+
+### index.html
+
+    <script src="packages/dart_barcode/js/JsBarcode.js"></script>
+    <script src="packages/dart_barcode/js/CODE128.js"></script>
+    
+
+### main.dart
+
     import 'package:dart_barcode/dart_barcode.dart';
 
     main() {
