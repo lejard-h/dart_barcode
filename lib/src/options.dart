@@ -1,7 +1,4 @@
-@JS()
-library dart_barcode.options;
-
-import 'package:js/js.dart';
+part of dart_barcode;
 
 @JS()
 @anonymous

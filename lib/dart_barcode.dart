@@ -8,5 +8,5 @@ library dart_barcode;
 
 import 'package:js/js.dart';
 
-export 'src/dart_barcode_base.dart';
-export 'src/options.dart';
+part  'src/dart_barcode_base.dart';
+part  'src/options.dart';
