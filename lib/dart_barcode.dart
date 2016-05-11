@@ -3,8 +3,10 @@
 
 /// The dart_barcode library.
 ///
+@JS()
 library dart_barcode;
 
+import 'package:js/js.dart';
 
 export 'src/dart_barcode_base.dart';
 export 'src/options.dart';
