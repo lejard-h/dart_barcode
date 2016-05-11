@@ -3,19 +3,8 @@
 
 library dart_barcode.test;
 
-import 'package:dart_barcode/dart_barcode.dart';
-import 'package:test/test.dart';
+/*import 'package:dart_barcode/dart_barcode.dart';
+import 'package:test/test.dart';*/
 
 void main() {
-  group('A group of tests', () {
-    Awesome awesome;
-
-    setUp(() {
-      awesome = new Awesome();
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
-    });
-  });
 }
