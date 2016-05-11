@@ -12,7 +12,7 @@ class Options {
       String font,
       String textAlign,
       String lineColor,
-      String backgroundColor,
+      String background,
       bool displayValue});
 
   external num get width;
@@ -24,7 +24,7 @@ class Options {
   external String get font;
   external String get textAlign;
   external String get lineColor;
-  external String get backgroundColor;
+  external String get background;
 
   external bool get displayValue;
 
@@ -37,7 +37,7 @@ class Options {
   external set font(String v);
   external set textAlign(String v);
   external set lineColor(String v);
-  external set backgroundColor(String v);
+  external set background(String v);
 
   external set displayValue(bool v);
 }
