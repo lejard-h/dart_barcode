@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script async src="packages/dart_barcode/vendors/js/JsBarcode.min.js"></script>
+    <script async src="packages/dart_barcode/vendors/js/JsBarcode.all.min.js"></script>
 </head>
 <body>
-
-<img id="barcode"/>
+<img/>
+<svg id="barcode"></svg>
+<svg id="code128"></svg>
+<svg id="ean-13"></svg>
+<svg id="ean-8"></svg>
+<svg id="ean-5"></svg>
+<svg id="ean-2"></svg>
+<svg id="upc-a"></svg>
+<svg id="code39"></svg>
+<svg id="itf-14"></svg>
+<svg id="msi"></svg>
+<svg id="pharmacode"></svg>
+<svg class="barcode"
+     jsbarcode-format="upc"
+     jsbarcode-value="123456789012"
+     jsbarcode-textmargin="0"
+     jsbarcode-fontoptions="bold">
+</svg>
 
 <script defer type="application/dart" src="dart_barcode.dart"></script>
 <script defer src="packages/browser/dart.js"></script>
