@@ -1,6 +1,6 @@
 name: dart_barcode
 description: Wrapper of JsBarcode library
-version: 1.0.0
+version: 1.0.1
 author: Hadrien Lejard <hadrien.lejard@gmail.com>
 homepage: https://github.com/lejard-h/dart_barcode
 

@@ -7,7 +7,7 @@ import 'dart:html';
 import 'package:dart_barcode/dart_barcode.dart';
 
 main() {
-  Options opt = new Options(format: "CODE128", displayValue:true);
+  Options opt = new Options(format: "CODE128", displayValue: true);
   new DartBarcode(querySelector("img"), "0123456789", opt);
 
   new DartBarcode("#code128", "Hi!");
@@ -26,6 +26,9 @@ main() {
       .options(new Options(font: "OCR-B")) // Will affect all barcodes
       .ean13("1234567890128", new Options(fontSize: 18, textMargin: 0))
       .blank(20) // Create space between the barcodes
-      .ean5("12345", new Options(height: 85, textPosition: "top", fontSize: 16, marginTop: 15))
+      .ean5(
+          "12345",
+          new Options(
+              height: 85, textPosition: "top", fontSize: 16, marginTop: 15))
       .render();
 }
