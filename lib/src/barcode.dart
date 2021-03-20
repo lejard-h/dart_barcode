@@ -4,7 +4,7 @@ library dart_barcode.core;
 import 'package:js/js.dart';
 import 'options.dart';
 
-@JS("JsBarcode")
+@JS('JsBarcode')
 class DartBarcode {
   external DartBarcode(object, [String code, Options options]);
   external DartBarcode options(Options options);

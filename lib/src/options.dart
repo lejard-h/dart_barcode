@@ -6,26 +6,27 @@ import 'package:js/js.dart';
 @anonymous
 @JS()
 class Options {
-  external factory Options(
-      {num width,
-      num height,
-      num fontSize,
-      String format,
-      String font,
-      String textAlign,
-      String lineColor,
-      String background,
-      bool displayValue,
-      String text,
-      String fontOptions,
-      String textPosition,
-      num textMargin,
-      num margin,
-      num marginTop,
-      num marginBottom,
-      num marginRight,
-      num marginLeft,
-      Function valid});
+  external factory Options({
+    num width,
+    num height,
+    num fontSize,
+    String format,
+    String font,
+    String textAlign,
+    String lineColor,
+    String background,
+    bool displayValue,
+    String text,
+    String fontOptions,
+    String textPosition,
+    num textMargin,
+    num margin,
+    num marginTop,
+    num marginBottom,
+    num marginRight,
+    num marginLeft,
+    Function valid,
+  });
 
   external num get width;
 

@@ -1,6 +1,6 @@
 # dart_barcode
 
-Port of [JsBarcode](https://github.com/lindell/JsBarcode) library.
+Interop of [JsBarcode](https://github.com/lindell/JsBarcode) library.
 JsBarcode is a simple way to create different types of 1d barcodes.
 The plugin uses Html5Canvas/img/svg to generate and draw the barcode
 
@@ -20,7 +20,7 @@ A simple usage example:
     import 'package:dart_barcode/dart_barcode.dart';
 
     main() {
-        new DartBarcode("#code").ean13("1234567890128").render();
+        DartBarcode("#code").ean13("1234567890128").render();
     }
 
 ## Features and bugs
